@@ -45,7 +45,7 @@ export default {
     getProfle() {
       let channelName = this.username;
       client.request("GET", `channels/${channelName}`).then(res => {
-        console.log(res);
+        //console.log(res);
         if (res.statusCode == 200) {
           this.avatarURL = res.body.user.avatarUrl;
           //this.username = res.body.user.username;
