@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Stats from "./components/Stats.vue";
+import Stats from "./components/Stats/Stats.vue";
 
 export default {
   name: "app",
